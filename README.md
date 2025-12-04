@@ -168,7 +168,7 @@ Votes strongly influence perceived rating reliability.
 📘 Files Included
 
 
-Zomato_EDA.ipynb — Full Google Colab analysis notebook
+EDA_Codeaplha.ipynb — Full Google Colab analysis notebook
 
 
 Cleaned dataset outputs (generated inside the notebook)
