@@ -1,185 +1,42 @@
-📊 Zomato Bangalore Restaurants — Exploratory Data Analysis (EDA)
+📊 Zomato Bangalore Restaurants — EDA
 
-This project is completed as part of the CodeAlpha Data Analytics Internship, fulfilling Task 2: Exploratory Data Analysis (EDA) as mentioned in the internship instructions.
-The analysis explores the Zomato Bangalore Restaurants dataset, focusing on understanding restaurant trends, ratings, cuisines, popularity factors, and cost insights.
-Project Overview
+This project is part of my CodeAlpha Data Analytics Internship (Task 2). It includes an Exploratory Data Analysis (EDA) of the Zomato Bangalore Restaurants Dataset to uncover insights on cuisines, ratings, locations, customer preferences, and cost patterns.
 
-The goal of this project is to perform in-depth EDA on a real-world restaurant dataset, uncovering meaningful insights through data cleaning, transformation, visualization, and statistical exploration.
+🗂️ Dataset
 
-The dataset contains information about:
+Kaggle: https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants
 
-Restaurant names
+🔍 What’s Inside
 
-Locations
+Data cleaning & preprocessing
 
-Cuisines
+Analysis of cuisines, ratings, cost, and votes
 
-Ratings
+Trend identification & correlation analysis
 
-Votes
+Visualizations using Pandas, Seaborn, Matplotlib, and Plotly
 
-Cost for two
+📊 Key Insights
 
-Online ordering availability
+North Indian & Chinese are the most common cuisines
 
-Table booking availability
+Koramangala & BTM are top restaurant hubs
 
-And more...
+Online-order restaurants tend to have better ratings
 
-This EDA helps answer important business and consumer behavior questions such as:
+Cost for two has minimal correlation with ratings
 
-Which locations have the most restaurants?
+Higher vote counts increase rating reliability
 
-What cuisines are most common?
+🛠️ Tools Used
 
-Do restaurants with online ordering have better ratings?
+Python • Pandas • NumPy • Matplotlib • Seaborn • Plotly • Google Colab
 
-Does cost influence restaurant ratings?
+📁 Notebook
 
-Which areas show the highest-rated dining experiences?
+EDA_Codeaplha (1).ipynb— Full analysis and visualizations
 
-📝 Task Requirements (from CodeAlpha)
-✔ Asking meaningful questions about the dataset
-✔ Exploring data structure and column types
-✔ Identifying trends, patterns, and anomalies
-✔ Testing hypotheses using statistics and visualization
-✔ Detecting missing values, inconsistencies, and data issues
+👤 Author
 
-📂 Dataset
-Zomato Bangalore Restaurants Dataset
-Source: Kaggle
-Used for analyzing food preferences, restaurant ratings, cuisines, and city trends.
-
-🛠️ Technologies Used
-
-
-Python
-
-
-Pandas for data manipulation
-
-
-NumPy for numerical operations
-
-
-Matplotlib & Seaborn for visualizations
-
-
-Plotly Express for interactive charts
-
-
-Google Colab for executing analysis
-
-
-
-🔍 Key Steps Performed
-1️⃣ Data Loading
-
-
-Imported CSV into Google Colab
-
-
-Displayed top rows, shape, and initial structure
-
-
-2️⃣ Data Cleaning
-
-
-Removed duplicates
-
-
-Fixed inconsistent rating formats (e.g., “NEW”, “-”, “4.1/5”)
-
-
-Cleaned cost values containing commas
-
-
-Processed cuisines (split/explode)
-
-
-Handled null values
-
-
-Converted votes, cost, online-order columns into proper types
-
-
-3️⃣ Exploratory Questions Answered
-
-
-Which locations have the most restaurants?
-
-
-Most popular cuisines
-
-
-Restaurants with highest/lowest ratings
-
-
-Does online ordering improve ratings?
-
-
-Cost vs. rating relationship
-
-
-Votes vs. ratings
-
-
-4️⃣ Visualizations Created
-
-
-Rating distributions
-
-
-Restaurant count by location
-
-
-Top cuisines
-
-
-Cost vs rating scatter plot
-
-
-Online order vs rating boxplot
-
-
-Votes vs rating
-
-
-5️⃣ Insights & Findings
-Some example insights (your notebook contains full results):
-
-
-North Indian & Chinese are the most popular cuisines.
-
-
-Koramangala and BTM have the highest number of restaurants.
-
-
-Restaurants offering online ordering tend to have slightly higher ratings.
-
-
-Cost for two does not have a strong correlation with rating.
-
-
-Votes strongly influence perceived rating reliability.
-
-
-
-📘 Files Included
-
-
-EDA_Codeaplha.ipynb — Full Google Colab analysis notebook
-
-
-Cleaned dataset outputs (generated inside the notebook)
-
-
-
-🏁 Conclusion
-This EDA provides a complete overview of restaurant trends in Bangalore, helping understand consumer preferences, location hotspots, cuisine popularity, and rating behavior.
-It fulfills Task of CodeAlpha’s Data Analytics Internship requirements.
-
-⭐ Author
 Sanket Shakya
-Data Science & AI Student | Data Analyst | Python | Analytics
-
+Data Analytics & AI Student
