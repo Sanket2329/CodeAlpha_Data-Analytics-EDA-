@@ -1,4 +1,5 @@
 📊 Zomato Bangalore Restaurants — EDA
+![Zomato EDA](https://github.com/Sanket2329/CodeAlpha_Data-Analytics-EDA-/blob/main/zomato%20eda%20.png)
 
 This project is part of my CodeAlpha Data Analytics Internship (Task 2). It includes an Exploratory Data Analysis (EDA) of the Zomato Bangalore Restaurants Dataset to uncover insights on cuisines, ratings, locations, customer preferences, and cost patterns.
 
